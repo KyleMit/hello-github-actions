@@ -76,6 +76,46 @@ chmod  +r file # Allow read permission to everyone
 chmod +x action-a/entrypoint.sh
 ```
 
+[Get the chmod value for a file](https://unix.stackexchange.com/q/46915/128893)
+
+```bash
+stat -c %A action-a/entrypoint.sh
+```
+
+### Change Script Permissions on Windows
+
+[Change file permissions when working with git repo’s on windows](https://medium.com/@akash1233/change-file-permissions-when-working-with-git-repos-on-windows-ea22e34d5cee)
+
+[Updating file permissions with git-bash on Windows 7](https://stackoverflow.com/a/57584620/1366033)
+
+
+1. Open up a bash terminal like git-bash on Windows
+2. Navigate to the `.sh` file where you want to grant execute permissions
+3. Check the existing permissions with the following command:
+
+    ```bash
+    git ls-files --stage 
+    ```
+
+    Which should return something like *100644*
+
+4. Update the permissions with the following command
+
+    ```bash
+    git update-index --chmod=+x 'name-of-shell-script'
+    ```
+
+5. Check the file permission again 
+
+    ```bash
+    git ls-files --stage 
+    ```
+
+    Which should return something like *100755*
+
+6. Commit changes and push!
+
+
 ## Script Header
 
 [What is the difference between #!/bin/sh and #!/bin/bash?](https://askubuntu.com/a/141997/349745)
