@@ -70,6 +70,12 @@ chmod a-x file # Deny execute permission to everyone
 chmod  +r file # Allow read permission to everyone
 ```
 
+**Make script executable**:
+
+```bash
+chmod +x action-a/entrypoint.sh
+```
+
 ## Script Header
 
 [What is the difference between #!/bin/sh and #!/bin/bash?](https://askubuntu.com/a/141997/349745)
