@@ -4,12 +4,22 @@ This course will walk you through writing your first action and using it with a 
 
 ## Github
 
+* [Automating your workflow with GitHub Actions](https://help.github.com/en/categories/automating-your-workflow-with-github-actions)
+* [Learning Lab](https://github.com/marketplace/github-learning-lab)
+  * [Learning Lab - Actions](https://lab.github.com/github/hello-github-actions!)
+
 ### Branch Permissions
 
 [Configuring protected branches](https://help.github.com/en/articles/configuring-protected-branches)
 [About required reviews for pull requests](https://help.github.com/en/articles/about-required-reviews-for-pull-requests)
 
 ## Docker
+
+[Docker Hub Debian](https://hub.docker.com/_/debian)
+
+* [Install Docker Desktop](https://hub.docker.com/?overlay=onboarding)
+  * [Docker Desktop requires Win 10 Pro](https://stackoverflow.com/q/49677610/1366033)
+    * [Upgrade Win 10 Home -> Pro](https://support.microsoft.com/en-us/help/12384/windows-10-upgrading-home-to-pro)
 
 ## Bash Script
 
