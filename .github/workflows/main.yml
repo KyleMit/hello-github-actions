@@ -3,9 +3,9 @@ on: push
 jobs:
   build:
     name: Hello world action
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest    
     steps:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: 'Kyle'
+        MY_NAME: "Kyle"
