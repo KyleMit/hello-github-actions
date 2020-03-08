@@ -138,3 +138,9 @@ stat -c %A action-a/entrypoint.sh
 1. The interpreter process needs to read the file
 2. It checks if it is marked as executable
 
+### Troubleshooting
+
+* [In the default daemon configuration on Windows, the docker client must be run elevated to connect. This error may also indicate that the docker daemon is not running.](https://stackoverflow.com/q/40459280/1366033)
+* [Docker machine "default" does not exist. Use "docker-machine ls" to list machines. Use "docker-machine create" to add a new one](https://stackoverflow.com/q/39966083/1366033)
+* [Cannot run docker from windows. #636](https://github.com/docker/toolbox/issues/636)
+
